@@ -9,3 +9,15 @@ introducing all the backend technologies and concepts like sql, database, render
 Nodejs is a JavaScript runtime. JavaScript is a programming language used on web browser to manipulate the DOM, to manipulate the page loaded in the browser.
 So NodeJS allows us to run JavaScript on a server and also on browsers. so NodeJS can run outside the browser. nodejs uses a v8 engine which is a JavaScript engine built by google . v8 is written in c++
 -So NodeJS allows you to run JavaScript on your computer and add extra functionalities to the JavaScript so you can do more useful stuffs.
+
+*** Online Community ***
+Join our Online Learning Community
+Great to have you on board as a student!
+
+This course also comes with free access to our “Academind Community” on Discord: https://academind.com/community/
+
+There, you can find like-minded people, discuss issues, help each other, share progress, successes and ideas and simply have a good time!
+
+*** Installing Nodejs & Creating the first app ***
+-Go to nodejs.org to download and install it
+-After installing, type node -v to see if it install successfully on command prompt or powershell
