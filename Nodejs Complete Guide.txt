@@ -1,3 +1,11 @@
 NodeJS The complete Guide (MVC, REST APIs GraphQL, Deno)
+By Maximillian Schwarzmuller
 
 Section1: introduction
+introducing all the backend technologies and concepts like sql, database, rendering etc
+- we will build online shops and other dynamic stuffs.
+
+*** What is NodeJS ***
+Nodejs is a JavaScript runtime. JavaScript is a programming language used on web browser to manipulate the DOM, to manipulate the page loaded in the browser.
+So NodeJS allows us to run JavaScript on a server and also on browsers. so NodeJS can run outside the browser. nodejs uses a v8 engine which is a JavaScript engine built by google . v8 is written in c++
+-So NodeJS allows you to run JavaScript on your computer and add extra functionalities to the JavaScript so you can do more useful stuffs.
