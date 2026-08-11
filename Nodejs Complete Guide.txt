@@ -25,3 +25,7 @@ There, you can find like-minded people, discuss issues, help each other, share p
 -next you can activate the NodeJS mode on the command prompt by typing node and it will come out with > prompt. This is an interactive mode called rappel TA.
 -so with the interactive mode, you can run some NodeJS command and also use it as a calculator.
 -To exit the mode, use ctrl d or ctrl c or type .exit
+
+Writing our first NodeJS
+-create a folder and open vscode with the folder.
+-
