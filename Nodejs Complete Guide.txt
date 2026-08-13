@@ -92,3 +92,6 @@ Alternatives to Nodejs
 -R(Read, Read user input), E(eval, evaluate user input), P(Print, print out result), L(Loop, wait for new input)
 - to enter REPL, type node in your command prompt or powershell and it will be activated to type your node js commands directly. note, code are not stored in REPL.
 -working with file is using apps like vscode and other apps where the code can be stored.
+
+
+*** Section 2: Javascript basics ***
