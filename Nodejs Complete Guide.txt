@@ -41,4 +41,48 @@ fs.writeFileSync('hello.txt','Hello world, welcome to nodejs');
 then run it on the terminal and it will create a file called hello.txt and content welcome to nodejs)
 
 *** Understanding the roles and usage of Nodejs ***
--
+-They are language or tool runned on the server to handle user request and manage the server resources like database, request, validations etc.
+-it is a javascript runtime tool hence it can also run outside the server to execute some operations
+-it is a utitlity script and a building tool as well.
+
+-uses of nodejs
+*in web development, for creating server and handling incoming request.
+*in business logic, handles request, validate input , connect to database
+*Handles responses from html or json and the rest.
+
+Alternatives to Nodejs
+-python(django), php, Ruby, ASP.NET
+
+-it is fast and efficient.
+
+*** Course outline ***
+-Getting started
+-Javascript refresher
+-NodeJS Basics
+-Efficient development with nodeJS
+-Express JS
+-Template Engines
+-mode view controller
+-Advance routes and model
+-node + sql (Mysql)
+-using sequelize
+-node + nosql(mongodb)
+-using Mongoosee
+-session & cookies
+-Authentication
+-Sending emails
+-Authentication deep dive
+-user input validation
+-Error handling
+-file uploads and downloads
+-pagination
+-Async requests
+-handling payment
+-REST API Basics
+-Advanced REST API Features
+-using async await
+-Web sockets & sockets.io
+-GraphQL API
+-Deployment
+-Beyond web servers
+-NodeJs + Typescript + Deno
