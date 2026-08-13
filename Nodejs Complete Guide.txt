@@ -28,4 +28,17 @@ There, you can find like-minded people, discuss issues, help each other, share p
 
 Writing our first NodeJS
 -create a folder and open vscode with the folder.
+-click on new file + sign  and create a new file (firstapp.js)
+-type this: console.log("Welcome to Nodejs");
+-go to terminal -> click on new terminal
+- on the terminal opened, to run the app type: node firstapp.js
+
+-Writing to a file using the nodejs code
+#firstly call the file system function (fs)
+const fs = require ('fs');
+
+fs.writeFileSync('hello.txt','Hello world, welcome to nodejs');
+then run it on the terminal and it will create a file called hello.txt and content welcome to nodejs)
+
+*** Understanding the roles and usage of Nodejs ***
 -
