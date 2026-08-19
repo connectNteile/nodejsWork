@@ -95,3 +95,92 @@ Alternatives to Nodejs
 
 
 *** Section 2: Javascript basics ***
+
+-JavaScript in a Nutshell(JavaScript summary) : 
+*it is a weakly typed language (Meaning no explicit type assignment,data type can switch dynamically
+*Object oriented language (data can be organized in logical objects, has primitive & reference types
+*Versatile language ( runs on browsers and can also run on servers/PC, can perform broad variety of task
+
+*** Refreshing the core syntax ***
+Variables
+var name = 'Max';
+var age = 29;
+var ishubby =true;
+
+console.log(name); // to display in terminal
+
+//adding or creating functon
+function summarize(userName, userAge, userishobby){
+  return (
+    'Name is ' + userName +
+    'Age is ' + userAge +
+    ' And user hobby is ' + userishobby
+  );
+}
+
+//Calling the function
+console.log(summarize(name, age, ishubby))
+
+
+*** let & const ***
+let is used to define variables too
+let name = 'Mende'
+
+-when you dont want to change the value of the variable , you se const
+const name = 'James'
+
+
+*** Understanding Arrow Functions ***
+it is assigning a function to a variable .
+Ex.
+const summarize = (userName, userAge, userishobby)=>{
+  return (
+    'Name is ' + userName +
+    'Age is ' + userAge +
+    ' And user hobby is ' + userishobby
+  );
+}
+
+console.log(summarize(name, age, ishubby))
+
+Ex:
+const addx = (a,b) => {
+  return a+b;
+}
+
+or 
+const = (a,b) => a + b;  //in one line, since no multiple lines
+console.log(addx(6,9));
+
+//arrow function with one parameter
+const move = a => a + 5;
+console.log(move(4));
+
+//arrow function without parameter
+const mov = () => 5+6
+console.log(mov())
+
+
+*** Working with objects, properties & methods ***
+objects are usually in curly braces with key value pair items. it can also have function in them(using arrow format)
+Ex
+const person = {
+name: 'Fred',
+age: 29,
+};
+console.log(person)
+
+this keyword refer to the surrornding object, making reference to surrounding items in a function.
+
+Ex
+const person = {
+name: 'Fred',
+age: 29,
+greet(){
+  console.log('Hi, ' + this.name); //this refers to the object person
+ };
+};
+console.log(person.greet())
+
+
+*** ARRAYS & ARRAYS METHODS  ***
