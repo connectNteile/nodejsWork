@@ -170,7 +170,7 @@ age: 29,
 };
 console.log(person)
 
-this keyword refer to the surrornding object, making reference to surrounding items in a function.
+this keyword refer to the surrounding object, making reference to surrounding items in a function.
 
 Ex
 const person = {
@@ -184,3 +184,38 @@ console.log(person.greet())
 
 
 *** ARRAYS & ARRAYS METHODS  ***
+
+Array are for storing list of variables of different
+e.g. const hobbies = ['dancing','cooking',30, true , {"name": "john"}]
+
+- To output them,
+for ( let hobby of hobbies){
+    console.log(hobby);
+}
+-Arrays have several methods that can be used on it to manipulate and solve some problems.
+
+e.g.
+console.log(hobby. Map(hobby => 'hobby: ' + hobby)); //The map function or method is used for editing the array to add more features or make adjustment to it.
+console.log(hobbies)
+
+**** Array, Objects and Reference type ***
+objects {} and array [] are two different entities but they are all reference type.
+
+hobbies.push("Programming") //adds an element to the existing array
+
+in Array and objects, even though they may be defined as const, the name cannot change but the values can changes.
+
+
+*** Understanding Spread and Rest Operators ***
+Spread operators works with three dots(...) before the object or before the Array. it is used for copying element on an existing array to the new array.
+e.g. const x = [...hobbies]
+so it will copy all the elements of hobbies and put it into x and use it has elements in x.
+- it works for both objects and arrays.
+-Rest operator is the opposite of Spread. You use it when the elements of an object or Array is not defined but you still wan to define the array or object and it comes in arrow function
+e.g. const xy =(...args) => {
+    return args
+  }
+
+//Then calling it 
+console.log(xy(1,2,3,4))  // you can input as many element as possible , because the array was defined using Rest opertor.
+
