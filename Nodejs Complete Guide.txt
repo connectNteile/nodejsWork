@@ -219,3 +219,28 @@ e.g. const xy =(...args) => {
 //Then calling it 
 console.log(xy(1,2,3,4))  // you can input as many element as possible , because the array was defined using Rest opertor.
 
+*** Destructuring ***
+it is used for extracting details from an object
+const person = {
+  name: 'Max',
+  age: 29,
+  greet(){
+    console.log('hello and welcome');
+  }
+}
+
+//Destructuring the object
+const printName = [{name}] =>{    //note, aside name, you can add more variable or fields e.g. name, age etc
+      console.log(name);  //this name you are printing will now be stored as a variable in the system and you can use it elsewhere.
+  }
+
+printname(person)
+
+Array Destructuring
+Ex. const hobbies = ['Cook','Dance'];
+cont [hobby1 hobby2] =  hobbies;
+console.log(hobby1, hobby2];
+
+
+*** Async code & promises ***
+
